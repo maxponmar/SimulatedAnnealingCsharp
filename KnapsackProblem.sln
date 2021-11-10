@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnapsackProblem", "Knapsack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecocidoSimulado", "RecocidoSimulado\RecocidoSimulado.csproj", "{F573737C-0BD1-4C03-92B4-C2292A3EDD11}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimulatedAnnealing_Udemy", "SimulatedAnnealing_Udemy\SimulatedAnnealing_Udemy.csproj", "{6F690DE1-D1D8-4262-9F42-C39193F39B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimulatedAnnealing_FunctionOpt", "SimulatedAnnealing_Udemy\SimulatedAnnealing_FunctionOpt.csproj", "{6F690DE1-D1D8-4262-9F42-C39193F39B2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravellingSalesmanProblem", "TravellingSalesmanProblem\TravellingSalesmanProblem.csproj", "{E422D730-4DCB-4C9A-830B-6C91AA5FF9B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravellingSalesmanProblem", "TravellingSalesmanProblem\TravellingSalesmanProblem.csproj", "{E422D730-4DCB-4C9A-830B-6C91AA5FF9B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
