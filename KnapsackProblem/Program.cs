@@ -19,10 +19,10 @@ namespace KnapsackProblem
             // Objetos que se aceptan en la mochila
             // false indica que se descarta, true indica que se acepta en la mochila
             // NOTA: Este es un estado inicial, no es la mejor solucion.
-            bool[] aceptados = {false, true, false, false, true};
+            bool[] aceptados = {false, false, false, false, false};
 
             // Peso maximo que la mochila puede soportar
-            int pesoMaximoDeMochila = 20;
+            int pesoMaximoDeMochila = 10;
 
             // Por ejemplo,
             // El objeto 2 tiene un peso de 4 (pesos[1])
@@ -39,7 +39,7 @@ namespace KnapsackProblem
 
             RecocidoSimulado recocidoSimulado = new RecocidoSimulado();
 
-            recocidoSimulado.CorrerAlgoritmo(aceptados, pesos, valores);
+            recocidoSimulado.CorrerAlgoritmo(aceptados, pesos, valores, pesoMaximoDeMochila);
 
             Console.ReadLine();
         }
